@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emil\\vscode\\Hess2\\Hess.csproj": {}
+    "C:\\Code\\P4\\P4--Hess-a-programming-language-for-Chess\\Hess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emil\\vscode\\Hess2\\Hess.csproj": {
+    "C:\\Code\\P4\\P4--Hess-a-programming-language-for-Chess\\Hess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emil\\vscode\\Hess2\\Hess.csproj",
+        "projectUniqueName": "C:\\Code\\P4\\P4--Hess-a-programming-language-for-Chess\\Hess.csproj",
         "projectName": "Hess",
-        "projectPath": "C:\\Users\\Emil\\vscode\\Hess2\\Hess.csproj",
-        "packagesPath": "C:\\Users\\Emil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emil\\vscode\\Hess2\\obj\\",
+        "projectPath": "C:\\Code\\P4\\P4--Hess-a-programming-language-for-Chess\\Hess.csproj",
+        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\P4\\P4--Hess-a-programming-language-for-Chess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Emil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +33,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,12 +72,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
